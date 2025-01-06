@@ -18,3 +18,17 @@ html #ndm{position: absolute; width: 1989px;}
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+.layui-side-menu .layui-nav .layui-nav-item a {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 45px;
+    padding-right: 30px;
+}
+
+.layui-side-menu .layui-nav .layui-nav-item .layui-icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -19px;
+}
