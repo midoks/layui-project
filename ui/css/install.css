@@ -1,4 +1,5 @@
 body{text-align:center;}
+
 .header{position:fixed;left:0;top:0;width:80%;height:60px;line-height:60px;background:#000;padding:0 10%;z-index:10000;}
 .header h1{color:#fff;font-size:20px;font-weight:600;text-align:center;}
 .install-box{margin:100px auto 0;background:#fff;border-radius:10px;padding:20px;overflow:hidden;box-shadow: 5px 5px 15px #888888;display:inline-block;width:680px;min-height:500px;}
@@ -53,5 +54,8 @@ body{text-align:center;}
 .w700{width:700px!important;}
 .w800{width:800px!important;}
 .w900{width:900px!important;}
+
+.layui-table td, .layui-table th{text-align:left;}
+.layui-table tbody tr.no{background-color:#f00;color:#fff;}
 
 
