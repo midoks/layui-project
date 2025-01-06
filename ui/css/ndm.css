@@ -7,10 +7,12 @@ html{position: absolute; width: 1989px;}
 }
 
 .layui-layout-admin .layui-logo {
-	position: fixed;left: 0;
-	top: 0;z-index: 1002;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1002;
 /*	width: 220px;*/
-	height: 50px;
+	height: 51px;
 	padding: 0 15px;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -35,4 +37,8 @@ html{position: absolute; width: 1989px;}
 
 .layui-nav-tree .layui-nav-item>a .layui-nav-more {
     padding: 0px 0;
+}
+
+.layui-nav-child dd{
+	padding-left: 20px;
 }
