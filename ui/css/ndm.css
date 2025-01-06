@@ -1,4 +1,4 @@
-html #ndm{position: absolute; width: 1989px;}
+html{position: absolute; width: 1989px;}
 
 .layui-side-menu .layui-nav {
 /*    width: 220px;*/
@@ -31,4 +31,8 @@ html #ndm{position: absolute; width: 1989px;}
     top: 50%;
     left: 20px;
     margin-top: -19px;
+}
+
+.layui-nav-tree .layui-nav-item>a .layui-nav-more {
+    padding: 0px 0;
 }
