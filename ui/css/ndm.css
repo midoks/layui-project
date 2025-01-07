@@ -71,6 +71,7 @@ div {
 .layui-nav-tree li a:hover {
     background-color: #2c3138;
     color: #fff;
+    border-left: #20a53a 1px solid;
 }
 
 .layui-nav-tree .layui-nav-child dd.layui-this,
@@ -80,6 +81,7 @@ div {
 .layui-nav-tree .layui-this>a:hover {
 	background-color: #2c3138;
    	color: #fff;
+    border-left: #20a53a 1px solid;
 }
 
 #ndm {
