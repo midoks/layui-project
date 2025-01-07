@@ -1,7 +1,8 @@
-html{
+html, body{
 	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
 	padding: 0px;
 	margin: 0px;
+	height: 100%;
 }
 
 div {
@@ -10,11 +11,8 @@ div {
 }
 
 .layui-side-menu .layui-nav {
-/*    width: 220px;*/
-/*    margin-top: 50px;*/
     background-color:#353d44;
     border:none;
-/*    background: none;*/
 }
 
 .ndm-logo {
@@ -84,14 +82,21 @@ div {
    	color: #fff;
 }
 
-.main-content {
+#ndm {
 	position: relative;
-/*    margin-left: 180px;*/
+	background-color: #f2f2f3;
+	min-height: 100%;
+}
+
+.main-content {
+    margin-left: 210px;
 }
 
 .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+/*    padding-right: 15px;*/
+/*    padding-left: 15px;*/
     margin-right: auto;
     margin-left: auto;
 }
+
+
