@@ -149,4 +149,8 @@ div {
     padding-left: 30px;
 }
 
+.layui-table-header table tr{
+    background-color: #f6f6f6;
+}
+
 
