@@ -13,13 +13,14 @@ div {
 .layui-side-menu .layui-nav {
     background-color:#353d44;
     border:none;
+    width: 180px;
 }
 
 .ndm-logo {
 	height: 50px;
 	line-height: 50px;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #3c444d;
 }
 
 .ndm-logo  .logo_image {
@@ -91,7 +92,7 @@ div {
 }
 
 .main-content {
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .container-fluid {
