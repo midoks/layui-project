@@ -110,7 +110,7 @@ div {
     height: 50px;
     width: 100%;
     box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 5%) !important;
-    border-radius: 4px;
+/*    border-radius: 4px;*/
 }
 
 .c9 {
@@ -151,6 +151,42 @@ div {
 
 .layui-table-header table tr{
     background-color: #f6f6f6;
+}
+
+
+.tab-box {
+    height: 45px;
+    width: 100%;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 5%) !important;
+    border-radius: 4px;
+}
+
+.tab{
+    height: 45px;
+}
+
+.tab .tab-item {
+    display: inline-block;
+    height: 45px;
+    min-width: 100px;
+    padding: 0 20px;
+    line-height: 45px;
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+}
+
+.tab .tab-item:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.tab .tab-item.active {
+    color: #20a53a;
+/*    background: #20a53a10;*/
+    border-bottom: 2px solid #20a53a;
 }
 
 
