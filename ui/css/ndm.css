@@ -171,7 +171,7 @@ div {
     border-radius: 4px;
 }
 
-.tab{
+.tab {
     height: 45px;
 }
 
@@ -184,8 +184,14 @@ div {
     font-size: 13px;
     cursor: pointer;
     white-space: nowrap;
-    position: relative;
     text-align: center;
+}
+
+.tab .tab-item:hover {
+    background: #20a53a08;
+    color: #20a53a;
+    position: relative;
+    border-bottom: 1px solid #20a53a08;
 }
 
 .tab .tab-item:first-child {
@@ -193,7 +199,20 @@ div {
     border-bottom-left-radius: 4px;
 }
 
+.tab .tab-item.active:after {
+    content: '';
+    width: 20px;
+    height: 2px;
+/*    position: absolute;*/
+    left: 50%;
+    bottom: 0px;
+    background: red;
+    margin-left: -10px;
+    background: #20a53a;
+}
+
 .tab .tab-item.active {
+/*    */
     color: #20a53a;
 /*    background: #20a53a10;*/
     border-bottom: 2px solid #20a53a;
